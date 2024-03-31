@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/index.css">
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="form">
+        <h1 style="font-size: 34px;">Verify your Email</h1>
+        <input type="email" id="email" placeholder="Enter your Email....">
+        <div class="otpverify">
+           <input type="text" id="otp_inp" placeholder="Enter the OTP sent to your Email">
+           <button class="btn" id="otp_btn">Verify</button>
+        </div>
+        <button class="btn" onclick="sendotp()">Send OTP</button>
+    </div>
+    <script src="/public/js/j.js"></script>
+</body>
+</html>
