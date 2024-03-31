@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+
+}
+body{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url(/images/hero-bg.png);
+    
+}
+.otpverify{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+
+}
+.form{
+    width: 500px;
+    background-color: #eeeeee;
+    padding: 0px 30px;
+    display: grid;
+    gap: 20px;
+    padding-bottom: 32px;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+
+
+}
+input{
+    width: 100%;
+    padding: 10px;
+}
+.btn{
+    padding: 10px;
+    background-color: #82eec1;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    width: 150px;
+
+}
+input[type=text]:focus {
+    border: 3px solid  #82eec1;
+  }
+
+  input[type=email]:focus {
+    border: 3px solid  #82eec1;
+  }
+  .otpverify{
+    display: none;
+  }
